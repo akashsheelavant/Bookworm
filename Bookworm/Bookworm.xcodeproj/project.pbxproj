@@ -13,6 +13,7 @@
 		5B43246A2C9C04AF00D1CA9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4324692C9C04AF00D1CA9C /* Preview Assets.xcassets */; };
 		5B99DFA22CBAAE62008BE93E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99DFA12CBAAE62008BE93E /* Book.swift */; };
 		5B99DFA42CBAAFDE008BE93E /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B99DFA32CBAAFDE008BE93E /* AddBookView.swift */; };
+		5BADB54E2CC519CA002F5A4F /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BADB54D2CC519CA002F5A4F /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5B4324692C9C04AF00D1CA9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5B99DFA12CBAAE62008BE93E /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		5B99DFA32CBAAFDE008BE93E /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		5BADB54D2CC519CA002F5A4F /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5B4324682C9C04AF00D1CA9C /* Preview Content */,
 				5B99DFA12CBAAE62008BE93E /* Book.swift */,
 				5B99DFA32CBAAFDE008BE93E /* AddBookView.swift */,
+				5BADB54D2CC519CA002F5A4F /* RatingView.swift */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				5B4324652C9C04A600D1CA9C /* ContentView.swift in Sources */,
 				5B4324632C9C04A600D1CA9C /* BookwormApp.swift in Sources */,
 				5B99DFA22CBAAE62008BE93E /* Book.swift in Sources */,
+				5BADB54E2CC519CA002F5A4F /* RatingView.swift in Sources */,
 				5B99DFA42CBAAFDE008BE93E /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
