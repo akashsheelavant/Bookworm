@@ -6,15 +6,29 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+            
+    @Query var books: [Book]
     
+    @State private var showingAddScreen = false
     @State private var rememberMe = false
     
     var body: some View {
-        VStack {
-            PushButton(title: "Remember Me", isOn: $rememberMe)
-            Text(rememberMe ? "On": "Off")
+        NavigationStack {
+            Text("Count: \(books.count)")
+                    .navigationTitle("Bookworm")
+                    .toolbar {
+                        ToolbarItem(placement: .topBarTrailing) {
+                            Button("Add Book", systemImage: "plus") {
+                                showingAddScreen.toggle()
+                            }
+                        }
+                    }
+                    .sheet(isPresented: $showingAddScreen) {
+                        AddBookView()
+                    }
         }
     }
 }
